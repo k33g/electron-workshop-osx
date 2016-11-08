@@ -9,7 +9,7 @@
     "lint": "standard",
     "less": "gulp less",
     "test": "mocha src/tests && npm run lint",
-    "package": "electron-packager . --out=dist --app-version=$npm_package_version --platform=win32 --arch=x64 --prune --asar --overwrite --all --ignore \"node_modules/\\.bin\""
+    "package": "echo \"TODO (Etape 8): Utiliser electron-packager pour générer l'éxécutable de votre application\""
   },
   "repository": {
     "type": "git",
@@ -44,7 +44,6 @@
     "electron-packager": "8.0.0",
     "gulp": "3.9.1",
     "gulp-less": "3.1.0",
-    "gulp-cli": "^1.2.2",
     "less": "2.7.1",
     "mocha": "^3.1.2",
     "spectron": "3.4.0",
