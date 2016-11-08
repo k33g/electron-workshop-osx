@@ -8,5 +8,7 @@ node --version
 export ELECTRON_HOME=${PWD}/workshop/node_modules/electron/dist/Electron.app/Contents/MacOS/
 export PATH=$ELECTRON_HOME:$PATH
 # GULP CLI
+export GULP_HOME=${PWD}
+export PATH=$GULP_HOME:$PATH
 export GULPCLI_HOME=${PWD}/workshop/node_modules/gulp-cli/bin
 export PATH=$GULPCLI_HOME:$PATH
